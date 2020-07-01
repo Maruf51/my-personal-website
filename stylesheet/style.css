@@ -3,6 +3,7 @@ body {
     font-family: 'Heebo', sans-serif;
 }
 
+/* Header CSS Start From Here */
 #header {
     background-image: url(../images/header-bg.png);
     background-repeat: no-repeat;
@@ -20,7 +21,7 @@ body {
 }
 
 .head_2 {
-    font-weight: 400;
+    font-weight: 500;
     margin: 0;
     font-size: 35px;
 }
@@ -55,14 +56,131 @@ body {
 .photo_area img {
     width: 80%;
 }
+/* Header CSS End Here */
 
+
+/* Section Biography CSS Start From Here */
 #biography {
     background-image: url(../images/biography-bg.png);
     background-repeat: no-repeat;
     height: 807px;
-    background-size: 100%;
+    background-size: cover;
+}
+
+.bio_half_width {
+    width: 35%;
+    float: left;
 }
 
 .bio_photo_area img {
-    width: 80%;
+    width: 85%;
 }
+
+.bio_photo_area {
+    margin:10% 0 0 10%;
+}
+
+.bio_text_area {
+    margin: 19% 0 0 5%;
+    width: 39%;
+}
+/* Section Biography CSS End Here */
+
+
+/* Section Latest Work CSS Start From Here */
+.latest_work {
+    background-image: url(../images/latest-work-bg.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    background-size: cover;
+}
+
+.work_photo {
+    width: 80%;
+    margin: auto;
+}
+
+.work_photo img:first-child {
+    margin-left: 0;
+}
+
+.work_photo img {
+    width: 30%;
+    margin-left: 3%;
+}
+
+.work_text {
+    text-align: center;
+    padding: 0 0 80px 0;
+}
+/* Section Latest Work CSS End Here */
+
+
+/* Section Message CSS Start From Here */
+.message {
+    background-image: url(../images/footer-bg.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.client {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.client_say {
+    padding: 120px 0 55px 0;
+}
+
+.client h4 {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+
+.client h6 {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #707070;
+    padding-bottom: 8px;
+}
+
+
+.client h5 {
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.email {
+    padding: 10px 40px;
+    background: linear-gradient(45deg, #EC5298, #ED4B6E);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 44%;
+    text-align: center;
+    margin: 80px auto 150px auto;
+}
+
+.email p {
+    font-size: 15px;
+}
+
+.email h3 {
+    font-size: 29px;
+}
+/* Section Message CSS End Here */
+
+
+/* Section Copyright CSS Start From Here */
+#copyright {
+    color: #707070;
+    text-align: center;
+    font-size: 13px;
+}
+/* Section Copyright CSS End Here */
